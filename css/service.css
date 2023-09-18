@@ -1,0 +1,238 @@
+#service {
+  width: 100%;
+  height: 950px; 
+  margin-top: -91px;
+}
+#service div.wrap {
+  width: 400px;
+  height: 500px;
+  background-image: url(../img/service1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-top: 70px;
+  margin-left: 351px;
+}
+#service div.wrap h2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 60px 40px 30px 40px;
+}
+#service div.wrap p {
+  line-height: 1.8;
+  padding: 0 40px;
+}
+#service div.wrap p span {
+  
+}
+#service div.wrap .more {
+  position: relative;
+  border-bottom: 0.5px solid;
+  font-size: 14px;
+  font-weight: bold;
+  left: 40px;
+  top: 20px;
+  padding-right: 20px;
+}
+#service div.wrap .more::after{
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-top: 0.5px solid black;
+  border-right: 0.5px solid black;
+  transform: rotate(45deg);
+  top: 5px;
+  left: 83px;
+}
+#service div.wrap .servicephoto {
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  left: 400px;
+  padding: 0;
+  top: 0;
+  background-image: url(../img/service2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#service div.wrap2 {
+  width: 400px;
+  height: 450px;
+  margin-left: 350px;
+  padding: 60px 40px 0;
+  background: #ede6d6;
+  box-sizing: border-box;
+  float: left;
+}
+#service div.wrap2 h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+#service div.wrap2 ul {
+  
+}
+#service div.wrap2 ul li {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#service div.wrap2 ul li p {
+  
+}
+#service div.wrap2 ul li p:nth-child(1){
+  font-weight: bold;
+  font-size: 21px;
+  width: 100px;
+  height: 50px;
+}
+#service div.wrap2 ul li p:nth-child(2){
+  font-size: 14px;
+  width: 220px;
+  line-height: 2;
+}
+#service div.wrap2 .contentview {
+  display: block;
+  width: 320px;
+  height: 35px;
+  background-color: #6D5547;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+}
+#service div.wrap3 {
+  width: 800px;
+  height: 450px;
+  display: flex;
+}
+#service div.wrap3 .mem1 {
+  width: 400px;
+  background-image: url(../img/service3.png);
+  position: relative;
+}
+#service div.wrap3 .mem1 h2 {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin-top: 72px;
+}
+#service div.wrap3 .mem1 h2 span {
+  color: #C32234;
+}
+#service div.wrap3 .mem1 a{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 231px;
+  background-color: white;
+  padding: 40px;
+  position: relative;
+}
+#service div.wrap3 .mem1 .guide {
+  color: #C32234;
+  font-weight: bold;
+}
+#service div.wrap3 .mem1 .view {
+  border-bottom: 1px solid #8E8D8D;
+  padding-right: 26px;
+  position: absolute;
+  left: 275px;
+  color: #8E8D8D;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+#service div.wrap3 .mem1 .view::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-top: 0.5px solid #8E8D8D;
+  border-right: 0.5px solid #8E8D8D;
+  transform: rotate(45deg);
+  top: 5px;
+  left: 90px;
+  display: block;
+  color: #eee;
+}
+#service div.wrap3 .mem2 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #EEE8DA;
+}
+#service div.wrap3 .mem2 h2 {
+  color: #9A2E3B;
+  font-weight: bold;
+  margin-bottom: 19px;
+}
+#service div.wrap3 .mem2 h2 span {
+  font-weight: normal;
+  padding-right: 10px;
+}
+#service div.wrap3 .mem2 h2::before{
+  content: "";
+  background-image: url(../img/service4.png);
+  display: block;
+  width: 400px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+#service div.wrap3 .mem2 p{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2.5;
+  color: #3e3e3e;
+  margin-bottom: 2px;
+}
+#service div.wrap3 .mem2 p span{
+  background-color: #9A2E3B;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+#service div.wrap3 .mem2 a{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FDFDFB;
+  padding: 30px 40px 25px 40px;
+  position: relative;
+  top: -3px;
+}
+#service div.wrap3 .mem2 .guide {
+  color: #C32234;
+  font-weight: bold;
+}
+#service div.wrap3 .mem2 .view {
+  border-bottom: 1px solid #8E8D8D;
+  padding-right: 26px;
+  position: absolute;
+  left: 275px;
+  color: #8E8D8D;
+  font-weight: bold;
+  font-size: 14px;
+  height: 30px;
+}
+#service div.wrap3 .mem2 .view::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-top: 0.5px solid #8E8D8D;
+  border-right: 0.5px solid #8E8D8D;
+  transform: rotate(45deg);
+  top: 15px;
+  left: 90px;
+  display: block;
+  color: #eee;
+}

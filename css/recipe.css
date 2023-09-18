@@ -1,0 +1,115 @@
+#recipe {
+  background-color: #F5EEE8;
+}
+#recipe div.wrap {
+  height: 470px;
+  padding-top: 60px;
+}
+#recipe div.wrap2{
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+#recipe div.wrap2 h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+#recipe div.wrap2 ul {
+  gap: 30px;
+  font-weight: bold;
+}
+#recipe div.wrap2 ul li {
+  
+}
+#recipe div.wrap2 ul li a {
+  color: #9B8777;
+}
+#recipe div.wrap2 ul li:nth-child(3) a{
+  color: #993B42;
+  border-bottom: 3.5px solid;
+  padding-bottom: 10px;
+}
+/* 티 레시피 */
+#recipe div.wrap .teatype{
+
+}
+#recipe div.wrap .teatype article{
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #F5EEE8;
+}
+#recipe div.wrap .teatype .type1{
+
+}
+#recipe div.wrap .teatype .type2{
+  
+}
+#recipe div.wrap .teatype .type3{
+  
+} 
+#recipe div.wrap .teatype p{
+  width: 600px;
+  height: 260px;
+  background-image: url(../img/tea1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#recipe div.wrap .teatype .tea2{
+  background-image: url(../img/tea2.jpg);
+}
+#recipe div.wrap .teatype .tea3{
+  background-image: url(../img/tea3.jpg);
+}
+#recipe div.wrap .teatype ul{
+  flex-direction: column;
+  gap: 35px;
+}
+#recipe div.wrap .teatype ul li{
+  
+}
+#recipe div.wrap .teatype ul li:nth-child(1){
+  font-size: 40px;
+  font-weight: bold;
+  color: #424141;
+}
+#recipe div.wrap .teatype ul li:nth-child(2){
+  color: #993B42;
+  font-size: 25px;
+  font-weight: bold;
+}
+#recipe div.wrap .teatype ul li:nth-child(3){
+  line-height: 2;
+  font-weight: lighter;
+  color: #3d3d3d;
+  margin-bottom: 50px;
+}
+#recipe div.wrap .teatype ul li span{
+  
+}
+#recipe div.wrap .teatype article .menuview{
+  position: absolute;
+  bottom: 15px;
+  border: 1px solid;
+  padding: 8px 45px 8px 22px;
+  font-size: 15px;
+  color: #993B42;
+  font-weight: bold;
+  right: 413px;
+}
+#recipe div.wrap .teatype article .menuview::after{
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-top: 0.5px solid #993B42;
+  border-right: 0.5px solid #993B42;
+  transform: rotate(45deg);
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}

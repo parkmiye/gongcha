@@ -1,0 +1,154 @@
+main{
+  width: 100%;
+  height: 1859px;
+}
+#best {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+#best div.wrap {
+  width: 800px;
+  height: 380px;
+  padding-top: 20px;
+  position: relative;
+}
+#best div.wrap h2 {
+  font-size: 27px;
+  line-height: 2;
+  font-weight: bold;
+  padding-top: 20px;
+}#best div.wrap h2::after{
+  content: "";
+  display:inline-block;
+  width: 370px;
+  height: 370px;
+  background-image: url(../img/best.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  left: 483px;
+}
+#best div.wrap p {
+  font-size: 14px;
+  font-weight: bold;
+}
+#best div.wrap p:nth-child(2){
+  color: #747373;
+}
+#best div.wrap p:nth-child(3){
+  background-color: #C20F2D;
+  font-size: 24px;
+  color: white;
+  padding: 6px 6px;
+  width: 253px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+#best div.wrap p:nth-child(4){
+  color: #747373;
+  line-height: 1.5;
+}
+#best div.wrap p span{
+  
+}
+#best div.wrap ul {
+  padding-top: 60px;
+  position: relative;
+}
+#best div.wrap ul li {
+  
+}
+#best div.wrap ul li a {
+  color: #8E8D8D;
+  font-weight: bold;
+  padding-right: 70px;
+  font-size: 14px;
+}
+#best div.wrap ul li .red{
+  color: #C20F2F;
+  padding-left: 10px;
+}
+#best div.wrap ul li .gray{
+  color: #BCBCBC;
+  padding-left: 6px;
+}
+#best div.wrap .more{
+  border-bottom: 1px solid #8E8D8D;
+  padding-right: 20px;
+}
+#best div.wrap .more::after{
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-top: 0.5px solid #8E8D8D;
+  border-right: 0.5px solid #8E8D8D;
+  transform: rotate(45deg);
+  top: 65px;
+  left: 423px;
+}
+#best div.wrap2 {
+  width: 400px;
+  height: 380px;
+  padding: 50px 40px 0;
+  box-sizing: border-box;
+  background: #f5f4f2;
+  z-index: 1;
+  position: relative;
+}
+#best div.wrap2 h3 {
+  font-size: 27px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+#best div.wrap2 p {
+  font-size: 21px;
+  font-weight: bold;
+  color: #666666;
+  line-height: 1.3;
+}
+#best div.wrap2 form{
+  position: relative;
+  margin-top: 30px;
+}
+#best div.wrap2 form span{
+  position: absolute;
+  right: 30px;
+  top: 16px;
+  width: 270px;
+  height: 20px;
+  font-size: 16px;
+  color: #bcbcbc;
+}
+#best div.wrap2 form span::after{
+  content: "";
+  display: inline-block;
+  background-image: url(../img/search.gif);
+  width: 60px;
+  height: 49px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -40px;
+  top: -16px;
+}
+#best div.wrap2 input{
+  border: none;
+  padding: 15px 90px;
+}
+#best div.wrap2 .search {
+  
+}
+#best div.wrap2 .store {
+  padding: 18px 118px;
+  background-color: #3B3230;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom: 50px;
+}
